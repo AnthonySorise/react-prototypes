@@ -2,7 +2,8 @@ import React from 'react';
 
 export default (props) => {
     return(
-        <div className="container">
+        <div>
+            <h1>REACT!</h1>
         </div>
     )
 }
