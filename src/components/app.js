@@ -1,9 +1,11 @@
 import React from 'react';
+import MoviesContainer from './movie_container'
 
 export default (props) => {
     return(
-        <div>
-            <h1>REACT!</h1>
+        <div className="container">
+            <h1 className="text-center">Axios Demo</h1>
+            <MoviesContainer/>
         </div>
     )
 }
